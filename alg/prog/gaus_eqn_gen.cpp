@@ -21,15 +21,15 @@ int main () {
 	if (!itype) itype = rand()%3 +1 ;
 	if (itype==3) itype = (rand()%2) ? itype : 2 ;
 
-	if (itype == 3) { // no solusions
+	if (itype == 3) { // no solutions
   	  do {
 		dep_mask = myrand (dd1, dd2) ;
 	  } while (wt(dep_mask, n)<mm-2 || wt(dep_mask, n)>mm || !(dep_mask%2) ) ;
 	}
-	else if (itype == 1) { // one solusion
+	else if (itype == 1) { // one solution
 	  dep_mask = ((1<<mm)-1) << ( n-mm ) ; 
 	}
-	else if (itype == 2) { //infinite solusions
+	else if (itype == 2) { //infinite solutions
   	  do {
 		dep_mask = myrand (dd1, dd2) ;
 	  } while (wt(dep_mask,n)<mm-2 || wt(dep_mask,n)>=mm || dep_mask%2) ;
