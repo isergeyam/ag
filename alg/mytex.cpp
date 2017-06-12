@@ -68,8 +68,38 @@ void tex_equation (myMatrix Y) {
 	}
 	cout << "\\end {array}\n$$\n" ;
 } ;
-
-
+char* itoa(int x) {
+  char *str=new char[10] ;
+  sprintf(str, "%d", x) ;
+  return str ;
+}
+string tex_equation_string (myMatrix Y) {
+	size_t k = Y.size() ; //equations number
+	size_t n = Y[0].size()-1 ; //variables number
+  string out ;
+	string arr_param(2*n+1,'r')  ;
+	out+="$$\n\\begin {array} {" + arr_param + "}\n" ;
+	for (size_t i=0; i<k; i++){
+		for (size_t j=0; j<n+1; j++){
+			if (j) {
+				char* sign = "   "  ; 
+				if ( Y[i][j] > 0 ) sign = " + " ;
+				if ( Y[i][j] < 0 && j<n) {sign = " - " ;	Y[i][j] = -Y[i][j] ; }
+				if (j==n) sign = " = " ;				
+				out+= " & " + string(sign) + " & " ;
+			}
+			if ( Y[i][j]!=0 || j==n ) {
+				if ( Y[i][j] != 1 || j==n ) out+=Y[i][j].get_str() ;
+				if (j < n) {
+					out += "x_" + string(itoa(j+1)) ;
+				}
+			}
+		}
+		out+=" \\\\\n" ;
+	}
+	out+="\\end {array}\n$$\n" ;
+  return out ;
+}
 void tex_polynom(myPolynom Y, int mod, ostream& out, char var) {
   int k=Y.deg() ;
   if (k==-1) { out << 0 ; return ; }

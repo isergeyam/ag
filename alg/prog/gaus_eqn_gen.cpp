@@ -1,7 +1,7 @@
-#include "mymatr.h"
-#include "mytex.h"
-
-
+#include "../mymatr.h"
+#include "../mytex.h"
+#include <cstdio>
+#include <jsoncpp/json/json.h> // or jsoncpp/json.h , or json/json.h etc.
 int main () {
   myVector empty(0) ;
   size_t k=0, n=0, dep_mask=0, hash_rad=3, hash_max=20, itype=0 ;
@@ -15,8 +15,8 @@ int main () {
       
   if (!dep_mask) {
 	int mm = min(k, n-1) ;
-	int dd2 = (1<<n) - 1 ;
-	int dd1 = ( 1<<(n-1) ) | (1<<(n-3) ) ;
+	int dd2 = (1+n) - 1 ;
+	int dd1 = ( 1+(n-1) ) | (1+(n-3) ) ;
 
 	if (!itype) itype = rand()%3 +1 ;
 	if (itype==3) itype = (rand()%2) ? itype : 2 ;
@@ -27,7 +27,7 @@ int main () {
 	  } while (wt(dep_mask, n)<mm-2 || wt(dep_mask, n)>mm || !(dep_mask%2) ) ;
 	}
 	else if (itype == 1) { // one solution
-	  dep_mask = ((1<<mm)-1) << ( n-mm ) ; 
+	  dep_mask = ((1+mm)-1) + ( n-mm ) ; 
 	}
 	else if (itype == 2) { //infinite solutions
   	  do {
@@ -39,35 +39,39 @@ int main () {
 	myMatrix A (k, n) ;
 	A.gen_step(dep_mask, d1, d2) ;
 	myMatrix B = A.hash(hash_rad, hash_max) ;
-    cout << "Исследовать систему методом Гаусса:\n" ;
-	tex_equation(B) ;
+  Json::Value val ;
+  val["name"]="Метод Гаусса" ;
+  string statement, solution ;
+  statement+="Исследовать систему методом Гаусса:\n" ;
+	statement+=tex_equation_string(B) ;
 	B.gaus1() ;
 	
 	myMatrix B_short = B ; //added
 	B_short.del_col (B_short[0].size() - 1) ; // added
-	B_short.gaus1() ; //added
-	
-	cout << "\n%" << k << ' ' << n;
+	B_short.gaus1() ; //added	
+	statement+= "\n%" + string(itoa(k)) + ' ' + string(itoa(n));
 	comment_matrix (B,"step") ;
-	cout << "%cols=\n%" ;
+	statement+= "%cols=\n%" ;
 	
-	cerr << "Ответ:\n\n" ;
+	solution+= "Ответ:\n\n" ;
 	
 	size_t rk_sys = B_short.main_vect.size() ; //added
 	
-	cerr << "ранг ситстемы: " << rk_sys << "\n\n" ; //changed
-	cerr << "Главные неизвестные:\n" ;
+	solution+= "ранг ситстемы: " + string(itoa(rk_sys)) + "\n\n" ; //changed
+	solution+= "Главные неизвестные:\n" ;
 	
 	for (int i=0; i<rk_sys; i++) {
-	  if (i) cerr << ", " ;
-	  cerr << "$x_" << B_short.main_vect[i]+1 << "$" ;
-	  cout << B_short.main_vect[i]+1 << ' ' ;
+	  if (i) solution+= ", " ;
+	  solution+="$x_" + string(itoa(B_short.main_vect[i]+1)) + "$" ;
+	  statement+=string(itoa(B_short.main_vect[i]+1)) + ' ' ;
 	}
-	cout << "\n%rk=\n%"  << rk_sys ;
-	cerr << "\n\nСтупенчатый вид:\n$$\n" ;
+	statement+= "\n%rk=\n%"  + string(itoa(rk_sys)) ;
+	solution+= "\n\nСтупенчатый вид:\n$$\n" ;
 	tex_matrix (B, cerr) ;
-	cerr << "$$\n" ;
-	comment_matrix (A, "easy", cerr) ;
-
+	solution+= "$$\n" ;
+	//comment_matrix (A, "easy", cerr) ;
+  val["solution"]=solution ;
+  val["statement"]=statement ;
+  cout << val << endl ;
   return 0 ;
 }

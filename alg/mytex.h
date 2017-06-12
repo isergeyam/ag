@@ -32,5 +32,7 @@ void tex_vect(const myVector&, ostream& out=cout) ;
 void tex_plane_eqn (const myVector& , ostream& out=cout) ;
 void tex_kv_frm (const myMatrix&, ostream& out=cout) ;
 void tex_surf (const myMatrix&, const myVector&, const myScalar, ostream& out = cout) ;
+string tex_equation_string (myMatrix) ;
+char *itoa(int) ; 
 
 #endif
