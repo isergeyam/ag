@@ -63,14 +63,15 @@ size_t* myMatrix::gaus_step1(size_t* ij=0) {
 } 
 
 
-cnt_vect_t myMatrix::gaus1 (const char* style, size_t* ij) {
+pair<cnt_vect_t, string> myMatrix::gaus1 (const char* style, size_t* ij) {
 //	myVector tmp(0) ;
 	main_vect.resize(0) ;
+  stringstream ss ;
 	do {
 		ij = gaus_step1(ij) ;
-		if (style[0]=='v') cout << CUR << endl  ;
+		if (style[0]=='v') ss << CUR << endl  ;
 	} while ( I<size() && J<CUR[0].size() ) ;
-	return main_vect ;
+	return make_pair(main_vect, ss.str()) ;
 };
 
 size_t myMatrix::rk () {

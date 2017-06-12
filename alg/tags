@@ -1,0 +1,402 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABS_MAX	prog/fix/jord_frm_gen.cpp	7;"	d	file:
+ABS_MAX	prog/fix/ker_im_gen.cpp	6;"	d	file:
+ABS_MAX	prog/jord_frm_gen.cpp	7;"	d	file:
+ABS_MAX	prog/ker_im_gen.cpp	6;"	d	file:
+CF	myvect.h	40;"	d
+CUR	myvect.h	36;"	d
+Check	china/china_theor_chk.cpp	/^bool Check(vector <ll> r, vector <ll> a, ll x){$/;"	f
+DEBUGEXEC	ker_im_chk.pl.x.c	281;"	d	file:
+DIM	ker_im_chk_bad.cpp	3;"	d	file:
+DIM	prog/fix/jord_frm_chk.cpp	3;"	d	file:
+DIM	prog/fix/jord_frm_gen.cpp	5;"	d	file:
+DIM	prog/fix/ker_im_gen.cpp	5;"	d	file:
+DIM	prog/jord_frm_chk.cpp	3;"	d	file:
+DIM	prog/jord_frm_gen.cpp	5;"	d	file:
+DIM	prog/ker_im_gen.cpp	5;"	d	file:
+DIM	prog/kvadrik2_gen.cpp	4;"	d	file:
+DIM	prog/kvadrika_gen.cpp	4;"	d	file:
+Euclid	china/china_old_gen.cpp	/^ll Euclid (ll a,ll  b,ll &x,ll &y) {$/;"	f
+Euclid	china/china_theor_gen.cpp	/^ll Euclid (ll a,ll  b,ll &x,ll &y) {$/;"	f
+I	mymatr.cpp	32;"	d	file:
+J	mymatr.cpp	33;"	d	file:
+L1	china/china_theor_chk.pl	/^L1: print "<\/table>" ;$/;"	l
+L1	kvadrik2_chk.pl	/^L1: print "\\n<\/table>" ;$/;"	l
+L1	kvadrika_chk.pl	/^L1: print "\\n<\/table>" ;$/;"	l
+L1	kvd_frm_chk.pl	/^L1: print "<\/table>" ;$/;"	l
+L1	poly_div_chk.pl	/^L1: print "<\/table>" ;$/;"	l
+L1	poly_gcd_chk.pl	/^L1: print "<\/table>" ;$/;"	l
+MAXCOEF	zn.pl	/^use constant MAXCOEF => 4 ;$/;"	c
+MAXDIV	zn.pl	/^use constant MAXDIV =>  3 ;$/;"	c
+MAXX	zn.pl	/^use constant MAXX => 1000 ;$/;"	c
+MYALGO_H	myalgo.h	20;"	d
+MYMATR_H	mymatr.h	20;"	d
+MYPERMUT_H	mypermut.h	21;"	d
+MYPOLY_H	mypoly.h	2;"	d
+MYQMATR_H	myqmatr.h	20;"	d
+MYQVECT_H	myqvect.h	21;"	d
+MYTEX_H	mytex.h	21;"	d
+MYVECT_H	myvect.h	21;"	d
+MY_ID	myvect.h	38;"	d
+MY_TWO	myvect.h	39;"	d
+MY_ZERO	myvect.h	37;"	d
+Mistake	complex_alex/Checker2.cpp	4;"	d	file:
+Mistake	prog/complex_roots_chk.cpp	4;"	d	file:
+OPT	Makefile	/^OPT = -w$/;"	m
+PTRACE_ATTACH	ker_im_chk.pl.x.c	441;"	d	file:
+R_RAD	prog/fix/jord_frm_gen.cpp	6;"	d	file:
+R_RAD	prog/jord_frm_gen.cpp	6;"	d	file:
+TRACEABLE	ker_im_chk.pl.x.c	282;"	d	file:
+VPATH	Makefile	/^VPATH := prog$/;"	m
+_LINUX_SOURCE_COMPAT	ker_im_chk.pl.x.c	431;"	d	file:
+_init	myqvect.h	/^	inline void _init() {$/;"	f	class:myQVect
+_init	myvect.h	/^	inline void _init() {$/;"	f	class:myVector
+abs	prog/plan_eqn_gen.cpp	/^double abs(myVector& v) {$/;"	f
+abs_max	mymatr.cpp	/^myScalar myMatrix::abs_max() {$/;"	f	class:myMatrix
+abs_max	myqvect.cpp	/^myQScal myQVect::abs_max() {$/;"	f	class:myQVect
+abs_max	myvect.cpp	/^myScalar myVector::abs_max() {$/;"	f	class:myVector
+ads	complex_alex/Generator2.cpp	/^double ads(double a){$/;"	f
+ads	prog/complex_roots_gen.cpp	/^double ads(double a){$/;"	f
+arc4	ker_im_chk.pl.x.c	/^void arc4(void * str, int len)$/;"	f
+b2d	myvect.cpp	/^size_t b2d (char* str) {$/;"	f
+cdelim	myqvect.h	/^	char *cdelim ;$/;"	m	class:myQVect
+cdelim	myvect.h	/^	char *cdelim ;$/;"	m	class:myVector
+chk1	ker_im_chk.pl.x.c	79;"	d	file:
+chk1_z	ker_im_chk.pl.x.c	78;"	d	file:
+chk2	ker_im_chk.pl.x.c	22;"	d	file:
+chk2_z	ker_im_chk.pl.x.c	21;"	d	file:
+chkenv	ker_im_chk.pl.x.c	/^int chkenv(int argc)$/;"	f
+circ	mypermut.cpp	/^	vector<int> myPermut::circ() {$/;"	f	class:myPermut
+cnt_vect_t	myvect.h	/^	cnt_vect_t () : vector<size_t>() {} ;$/;"	f	class:cnt_vect_t
+cnt_vect_t	myvect.h	/^	cnt_vect_t (size_t n) : vector<size_t>(n) {} ;$/;"	f	class:cnt_vect_t
+cnt_vect_t	myvect.h	/^	cnt_vect_t (size_t n, size_t var) : vector<size_t>(n) {$/;"	f	class:cnt_vect_t
+cnt_vect_t	myvect.h	/^class cnt_vect_t : public vector<size_t> {$/;"	c
+comment_matrix	mytex.cpp	/^void comment_matrix (myMatrix& X, const char* name, ostream& out) {$/;"	f
+comment_permut	mypermut.cpp	/^void comment_permut (myPermut& a, const char* name, ostream& out) {$/;"	f
+concat	mymatr.cpp	/^myMatrix myMatrix::concat(myMatrix B , char type) {$/;"	f	class:myMatrix
+d2b	myvect.cpp	/^char* d2b(size_t num, int n=32) {$/;"	f
+data	ker_im_chk.pl.x.c	/^static  char data [] = $/;"	v	file:
+date	ker_im_chk.pl.x.c	14;"	d	file:
+date_z	ker_im_chk.pl.x.c	13;"	d	file:
+debugexec	ker_im_chk.pl.x.c	/^void debugexec(char * sh11, int argc, char ** argv)$/;"	f
+decomp	prog/fix/jord_frm_gen.cpp	/^vector<size_t> decomp (size_t num, size_t cnt=0) {$/;"	f
+decomp	prog/jord_frm_gen.cpp	/^vector<size_t> decomp (size_t num, size_t cnt=0) {$/;"	f
+deg	mypoly.cpp	/^int myPolynom::deg() {$/;"	f	class:myPolynom
+del	myqvect.cpp	/^void myQVect::del(size_t j) {$/;"	f	class:myQVect
+del	myvect.cpp	/^void myVector::del(size_t j) {$/;"	f	class:myVector
+del_col	mymatr.cpp	/^void myMatrix::del_col(size_t j) {$/;"	f	class:myMatrix
+del_row	mymatr.cpp	/^void myMatrix::del_row(size_t j) {$/;"	f	class:myMatrix
+delim	mymatr.h	/^	void delim (char* delim="\\t") {$/;"	f	class:myMatrix
+delim	mypermut.h	/^	char delim ;$/;"	m	class:myPermut
+det	zn.c	/^int det(int a[3][3]) {$/;"	f
+det	zn.pl	/^sub det {$/;"	s
+det1	mymatr.cpp	/^myScalar myMatrix::det1() {$/;"	f	class:myMatrix
+diag	mymatr.cpp	/^myMatrix diag( const myScalar val, const size_t sz) {$/;"	f
+dsum	prog/fix/jord_frm_gen.cpp	/^myMatrix dsum (myMatrix A, myMatrix B) {$/;"	f
+dsum	prog/jord_frm_gen.cpp	/^myMatrix dsum (myMatrix A, myMatrix B) {$/;"	f
+err_mes	ker_im_chk.pl	/^sub err_mes( @ ) {$/;"	s
+err_mes_smpl	prog/fix/zn_eqn_chk.pl	/^sub err_mes_smpl {$/;"	s
+factor	myvect.h	/^	myScalar factor ;$/;"	m	class:myVector
+findSolution	china/china_old_gen.cpp	/^ll findSolution(ll a1,ll mod1,ll a2,ll mod2){$/;"	f
+findSolution	china/china_theor_gen.cpp	/^ll findSolution(ll a1,ll mod1,ll a2,ll mod2){$/;"	f
+func	china/func.pm	/^package func;$/;"	p
+func	func.pm	/^package func;$/;"	p
+gaus1	mymatr.cpp	/^pair<cnt_vect_t, string> myMatrix::gaus1 (const char* style, size_t* ij) {$/;"	f	class:myMatrix
+gaus_step1	mymatr.cpp	/^size_t* myMatrix::gaus_step1(size_t* ij=0) {$/;"	f	class:myMatrix
+gcd	china/china_old_gen.cpp	/^ll gcd(ll a, ll b){$/;"	f
+gcd	china/china_theor_gen.cpp	/^ll gcd(ll a, ll b){$/;"	f
+gen_rand	mymatr.h	/^	void gen_rand ( rand_t ibeg=-9, rand_t iend=9 ) {$/;"	f	class:myMatrix
+gen_rand	mypermut.cpp	/^	void myPermut::gen_rand () {$/;"	f	class:myPermut
+gen_rand	myqvect.cpp	/^	void myQVect::gen_rand (rand_t ibeg, rand_t iend ) {$/;"	f	class:myQVect
+gen_rand	myvect.cpp	/^	void myVector::gen_rand (rand_t ibeg, rand_t iend ) {$/;"	f	class:myVector
+gen_rand_poly	china/func.pm	/^sub gen_rand_poly {$/;"	s
+gen_rand_poly	func.pm	/^sub gen_rand_poly {$/;"	s
+gen_roots	prog/fix/jord_frm_gen.cpp	/^myVector gen_roots(size_t root_num ) {$/;"	f
+gen_roots	prog/jord_frm_gen.cpp	/^myVector gen_roots(size_t root_num ) {$/;"	f
+gen_step	mymatr.cpp	/^void myMatrix::gen_step(const size_t dep_mask, \/\/ binary 11..11.$/;"	f	class:myMatrix
+gen_uni	mymatr.cpp	/^myMatrix gen_uni (size_t n, rand_t det, rand_t sign) {$/;"	f
+get_solution	myalgo.cpp	/^myQVect get_solution(myMatrix A, myVector fr_vect) { $/;"	f
+get_solution	unused/null_space.cpp	/^myQVect get_solution(myMatrix A, cnt_vect_t fr_vect) { $/;"	f
+has_null	mymatr.h	/^	int has_null() {$/;"	f	class:myMatrix
+has_null_col	mymatr.h	/^	int has_null_col() {$/;"	f	class:myMatrix
+has_null_row	mymatr.h	/^	inline int has_null_row() {$/;"	f	class:myMatrix
+hash	mymatr.cpp	/^myMatrix myMatrix::hash(size_t rad, size_t imax) {$/;"	f	class:myMatrix
+hash_var	china/func.pm	/^sub hash_var {$/;"	s
+hash_var	func.pm	/^sub hash_var {$/;"	s
+have_collin	prog/plan_eqn_gen.cpp	/^int have_collin (myMatrix a) {$/;"	f
+hide_z	ker_im_chk.pl.x.c	280;"	d	file:
+idenom	myvect.h	/^	myScalar idenom ;$/;"	m	class:myVector
+indx	ker_im_chk.pl.x.c	/^static unsigned char stte[256], indx, jndx, kndx;$/;"	v	file:
+init_rand	myqvect.cpp	/^	void myQVect::init_rand () {$/;"	f	class:myQVect
+init_rand	myvect.cpp	/^	void myVector::init_rand () {$/;"	f	class:myVector
+inlo	ker_im_chk.pl.x.c	26;"	d	file:
+inlo_z	ker_im_chk.pl.x.c	25;"	d	file:
+inv	mypermut.cpp	/^	size_t myPermut::inv() {$/;"	f	class:myPermut
+is_null	myqvect.h	/^	 inline int is_null() {myQVect tmp(size(),0) ; return (CUR==tmp) ;} ;$/;"	f	class:myQVect
+is_null	myvect.h	/^	 inline int is_null() {myVector tmp(size(),0) ; return (CUR==tmp) ;} ;$/;"	f	class:myVector
+is_triang	prog/fix/jord_frm_gen.cpp	/^size_t is_triang(myMatrix& X) {$/;"	f
+is_triang	prog/jord_frm_gen.cpp	/^size_t is_triang(myMatrix& X) {$/;"	f
+itoa	mytex.cpp	/^char* itoa(int x) {$/;"	f
+jndx	ker_im_chk.pl.x.c	/^static unsigned char stte[256], indx, jndx, kndx;$/;"	v	file:
+jord	prog/fix/jord_frm_gen.cpp	/^myMatrix jord (size_t r, myScalar lambda) {$/;"	f
+jord	prog/jord_frm_gen.cpp	/^myMatrix jord (size_t r, myScalar lambda) {$/;"	f
+key	ker_im_chk.pl.x.c	/^void key(void * str, int len)$/;"	f
+key_with_file	ker_im_chk.pl.x.c	/^int key_with_file(char * file)$/;"	f
+kndx	ker_im_chk.pl.x.c	/^static unsigned char stte[256], indx, jndx, kndx;$/;"	v	file:
+lib_files	Makefile	/^lib_files = $(wildcard my*.cpp)$/;"	m
+line_eqn	prog/line_eqn1_gen.cpp	/^myVector line_eqn (myVector n, myVector A, int normal=1){$/;"	f
+list2poly	china/func.pm	/^sub list2poly {$/;"	s
+list2poly	func.pm	/^sub list2poly {$/;"	s
+ll	china/china_old_gen.cpp	/^typedef long long ll;$/;"	t	file:
+ll	china/china_theor_chk.cpp	/^typedef long long ll;$/;"	t	file:
+ll	china/china_theor_gen.cpp	/^typedef long long ll;$/;"	t	file:
+lsto	ker_im_chk.pl.x.c	66;"	d	file:
+lsto_z	ker_im_chk.pl.x.c	65;"	d	file:
+m	lagrange/Solution of logranch.cpp	/^const int m=50;$/;"	v
+m	lagrange/poly_lagr_sol.cpp	/^const int m=50;$/;"	v
+m	lagrange/poly_lagr_sol_bad.cpp	/^const int m=50;$/;"	v
+main	china/china_old_gen.cpp	/^int main(){$/;"	f
+main	china/china_theor_chk.cpp	/^int main(){$/;"	f
+main	china/china_theor_gen.cpp	/^int main(){$/;"	f
+main	complex_alex/Checker2.cpp	/^int main ()$/;"	f
+main	complex_alex/Generator2.cpp	/^int main(){$/;"	f
+main	ker_im_chk.pl.x.c	/^int main(int argc, char ** argv)$/;"	f
+main	ker_im_chk_bad.cpp	/^int main () {$/;"	f
+main	lagrange/Generetion of lagranch.cpp	/^int main()$/;"	f
+main	lagrange/Solution of logranch.cpp	/^main ()$/;"	f
+main	lagrange/poly_lagr_gen.cpp	/^int main()$/;"	f
+main	lagrange/poly_lagr_sol.cpp	/^main ()$/;"	f
+main	lagrange/poly_lagr_sol_bad.cpp	/^main ()$/;"	f
+main	prog/complex_roots_chk.cpp	/^int main ()$/;"	f
+main	prog/complex_roots_gen.cpp	/^int main(){$/;"	f
+main	prog/fix/jord_frm_chk.cpp	/^int main() {$/;"	f
+main	prog/fix/jord_frm_gen.cpp	/^int main() {$/;"	f
+main	prog/fix/ker_im_chk.cpp	/^int main () {$/;"	f
+main	prog/fix/ker_im_gen.cpp	/^int main () {$/;"	f
+main	prog/fix/kvd_frm_chk.cpp	/^int main() {$/;"	f
+main	prog/fix/kvd_frm_gen.cpp	/^int main() {$/;"	f
+main	prog/fix/lin_sp_gen.cpp	/^int main () {$/;"	f
+main	prog/fix/poly_val_test.cpp	/^int main() {$/;"	f
+main	prog/fix/test.cpp	/^int main() {$/;"	f
+main	prog/fix/zn_eqn_chk.cpp	/^int main () {$/;"	f
+main	prog/fix/zn_eqn_gen.cpp	/^int main () {$/;"	f
+main	prog/fund_sys_chk.cpp	/^int main () {$/;"	f
+main	prog/fund_sys_gen.cpp	/^int main () {$/;"	f
+main	prog/gaus_eqn_chk.cpp	/^int main () {$/;"	f
+main	prog/gaus_eqn_gen.cpp	/^int main () {$/;"	f
+main	prog/jord_frm_chk.cpp	/^int main() {$/;"	f
+main	prog/jord_frm_gen.cpp	/^int main() {$/;"	f
+main	prog/ker_im_chk.cpp	/^int main () {$/;"	f
+main	prog/ker_im_gen.cpp	/^int main () {$/;"	f
+main	prog/kram_eqn_gen.cpp	/^int main() {$/;"	f
+main	prog/kvadrik2_gen.cpp	/^int main() {$/;"	f
+main	prog/kvadrika_gen.cpp	/^int main() {$/;"	f
+main	prog/kvd_frm_chk.cpp	/^int main() {$/;"	f
+main	prog/kvd_frm_gen.cpp	/^int main() {$/;"	f
+main	prog/lin_sp_gen.cpp	/^int main () {$/;"	f
+main	prog/line_eqn1_gen.cpp	/^int main () {$/;"	f
+main	prog/matr_eqn_gen.cpp	/^int main () {$/;"	f
+main	prog/matr_rk_chk.cpp	/^int main () {$/;"	f
+main	prog/matr_rk_gen.cpp	/^int main () {$/;"	f
+main	prog/perm_eqn_gen.cpp	/^int main () {$/;"	f
+main	prog/plan_eqn_gen.cpp	/^int main () {$/;"	f
+main	prog/poly_nod_gen.cpp	/^int main () {$/;"	f
+main	prog/poly_val_test.cpp	/^int main() {$/;"	f
+main	prog/test.cpp	/^int main() {$/;"	f
+main	prog/vect_dep_gen.cpp	/^int main () {$/;"	f
+main	prog/vect_grsh_chk.cpp	/^int main () {$/;"	f
+main	prog/vect_grsh_gen.cpp	/^int main () {$/;"	f
+main	prog/vect_trans_gen.cpp	/^int main () {$/;"	f
+main	prog/zn_eqn_chk.cpp	/^int main () {$/;"	f
+main	test.cpp	/^int main() {$/;"	f
+main	unused/comp_num_gen.c	/^main () {$/;"	f
+main	unused/null_space.cpp	/^int main () {$/;"	f
+main	zn.c	/^int main() {$/;"	f
+main_vect	mymatr.h	/^cnt_vect_t main_vect ;$/;"	m	class:myMatrix
+main_vect	myqmatr.h	/^cnt_vect_t main_vect ;$/;"	m	class:myQMatr
+max	myvect.h	/^inline myScalar max (myScalar x, myScalar y) {$/;"	f
+min	myvect.h	/^inline myScalar min (myScalar x, myScalar y) {$/;"	f
+monom	mypoly.cpp	/^myPolynom monom (size_t n) {$/;"	f
+msg1	ker_im_chk.pl.x.c	60;"	d	file:
+msg1_z	ker_im_chk.pl.x.c	59;"	d	file:
+msg2	ker_im_chk.pl.x.c	10;"	d	file:
+msg2_z	ker_im_chk.pl.x.c	9;"	d	file:
+myMatrix	mymatr.h	/^	myMatrix ( char* ch, size_t k, size_t n,$/;"	f	class:myMatrix
+myMatrix	mymatr.h	/^	myMatrix () : vector<myVector>() {} ;$/;"	f	class:myMatrix
+myMatrix	mymatr.h	/^	myMatrix (myVector v) : vector<myVector>(1) { CUR[0] = v ; }$/;"	f	class:myMatrix
+myMatrix	mymatr.h	/^	myMatrix (size_t k, size_t n) : vector<myVector>(k) {$/;"	f	class:myMatrix
+myMatrix	mymatr.h	/^	myMatrix (size_t k, size_t n, myScalar val) : vector<myVector>(k) {$/;"	f	class:myMatrix
+myMatrix	mymatr.h	/^class myMatrix : public vector<myVector> {$/;"	c
+myMatrix	myqmatr.cpp	/^myMatrix::myMatrix (myQMatr Q) {$/;"	f	class:myMatrix
+myPermut	mypermut.cpp	/^	myPermut::myPermut (unsigned int n):vector<size_t>(n) {$/;"	f	class:myPermut
+myPermut	mypermut.h	/^class myPermut : public vector <size_t> {$/;"	c
+myPolynom	mypoly.h	/^  myPolynom ( const char* ch, size_t k, rand_t interval) : myVector ( ch, k+1, interval=9) {} ;$/;"	f	class:myPolynom
+myPolynom	mypoly.h	/^  myPolynom () : myVector () {} ;$/;"	f	class:myPolynom
+myPolynom	mypoly.h	/^  myPolynom (myVector& v) : myVector(v) {} ;$/;"	f	class:myPolynom
+myPolynom	mypoly.h	/^  myPolynom (size_t k) : myVector (k+1) {} ;$/;"	f	class:myPolynom
+myPolynom	mypoly.h	/^  myPolynom (size_t k, myScalar y) : myVector (k+1, y) {} ;$/;"	f	class:myPolynom
+myPolynom	mypoly.h	/^class myPolynom : public myVector {$/;"	c
+myQMatr	myqmatr.cpp	/^  myQMatr::myQMatr (const myMatrix& a) : $/;"	f	class:myQMatr
+myQMatr	myqmatr.h	/^	myQMatr () : vector<myQVect>() {} ;$/;"	f	class:myQMatr
+myQMatr	myqmatr.h	/^	myQMatr (myQVect v) : vector<myQVect>(1) { CUR[0] = v ; }$/;"	f	class:myQMatr
+myQMatr	myqmatr.h	/^	myQMatr (size_t k, size_t n) : vector<myQVect>(k) {$/;"	f	class:myQMatr
+myQMatr	myqmatr.h	/^class myQMatr : public vector<myQVect> {$/;"	c
+myQScal	myqvect.h	/^typedef mpq_class myQScal ;$/;"	t
+myQVect	myqvect.h	/^	myQVect () : vector<myQScal>() { _init() ; } ;$/;"	f	class:myQVect
+myQVect	myqvect.h	/^	myQVect (myVector v) {$/;"	f	class:myQVect
+myQVect	myqvect.h	/^	myQVect (size_t n) : vector<myQScal>(n) {$/;"	f	class:myQVect
+myQVect	myqvect.h	/^	myQVect (size_t n, myQScal var) : vector<myQScal>(n) {$/;"	f	class:myQVect
+myQVect	myqvect.h	/^	myQVect( const char* ch, size_t n, rand_t interval=9) : vector<myQScal>(n) {$/;"	f	class:myQVect
+myQVect	myqvect.h	/^class myQVect : public vector<myQScal> {$/;"	c
+myScalar	myvect.h	/^typedef mpz_class myScalar ;$/;"	t
+myVector	myqvect.cpp	/^myVector::myVector (myQVect& v) {$/;"	f	class:myVector
+myVector	myvect.h	/^	myVector () : vector<myScalar>() { _init() ; } ;$/;"	f	class:myVector
+myVector	myvect.h	/^	myVector (const char* ch, size_t n, rand_t interval=9) : vector<myScalar>(n) {$/;"	f	class:myVector
+myVector	myvect.h	/^	myVector (size_t n) : vector<myScalar>(n) {$/;"	f	class:myVector
+myVector	myvect.h	/^	myVector (size_t n, myScalar var) : vector<myScalar>(n) {$/;"	f	class:myVector
+myVector	myvect.h	/^class myVector : public vector<myScalar> {$/;"	c
+my_in	mymatr.cpp	/^int my_in (const myScalar x, const myVector v) {$/;"	f
+mypow	mypoly.cpp	/^myScalar mypow (myScalar a, size_t x) {$/;"	f
+myrand	myvect.h	/^inline int myrand (rand_t d1, rand_t d2) {$/;"	f
+myrand	myvect.h	/^inline myScalar myrand (size_t rad) {$/;"	f
+no_input	china/func.pm	/^sub no_input {$/;"	s
+no_input	func.pm	/^sub no_input {$/;"	s
+nod	mypoly.cpp	/^myPolynom nod(myPolynom p1, myPolynom q1) {$/;"	f
+nod	myvect.cpp	/^inline myScalar nod (myScalar a, myScalar b) {$/;"	f
+nod	myvect.cpp	/^myScalar myVector::nod () {$/;"	f	class:myVector
+null_space	myalgo.cpp	/^myMatrix null_space (myMatrix A) {$/;"	f
+null_space	unused/null_space.cpp	/^myMatrix null_space (myMatrix A) {$/;"	f
+obj_files	Makefile	/^obj_files = $(patsubst %.cpp, %.o, $(lib_files))$/;"	m
+operator *	mymatr.cpp	/^	myMatrix operator* (const myMatrix& A, const myMatrix& B) {$/;"	f
+operator *	mymatr.cpp	/^	myVector operator* (const myMatrix& A, const myVector& v) {$/;"	f
+operator *	mypermut.cpp	/^myPermut operator * (const myPermut& a, const myPermut& b) {$/;"	f
+operator *	mypoly.cpp	/^myPolynom  operator* (const myScalar a, const myPolynom& v) {$/;"	f
+operator *	mypoly.cpp	/^myPolynom operator* (const myPolynom& p, const myPolynom& q) {$/;"	f
+operator *	myqmatr.cpp	/^	myQMatr operator* (const myQMatr& A, const myQMatr& B) {$/;"	f
+operator *	myqmatr.cpp	/^	myQVect operator* (const myQMatr& A, const myQVect& v) {$/;"	f
+operator *	myqvect.cpp	/^	myQScal operator* (const myQVect& v1, const myQVect& v2) {$/;"	f
+operator *	myqvect.cpp	/^	myQVect operator* (const myQScal a, const myQVect& v) {$/;"	f
+operator *	myvect.cpp	/^	myScalar operator* (const myVector& v1, const myVector& v2) {$/;"	f
+operator *	myvect.cpp	/^	myVector operator* (const myScalar a, const myVector& v) {$/;"	f
+operator +	mymatr.cpp	/^	myMatrix operator+ (const myMatrix& A, const myMatrix& B) {$/;"	f
+operator +	mypoly.cpp	/^  myPolynom  operator+ (const myPolynom& p, const myPolynom& q) {$/;"	f
+operator +	myqmatr.cpp	/^	myQMatr operator+ (const myQMatr& A, const myQMatr& B) {$/;"	f
+operator +	myqvect.cpp	/^	myQVect operator+ (const myQVect& v1, const myQVect& v2) {$/;"	f
+operator +	myvect.cpp	/^	myVector operator+ (const myVector& v1, const myVector& v2) {$/;"	f
+operator +=	myqvect.cpp	/^	myQVect& myQVect::operator+= (const myQVect& v2) {$/;"	f	class:myQVect
+operator +=	myvect.cpp	/^	myVector& myVector::operator+= (const myVector& v2) {$/;"	f	class:myVector
+operator -	mymatr.cpp	/^	myMatrix operator- (const myMatrix& A, const myMatrix& B) {$/;"	f
+operator -	mypoly.cpp	/^  myPolynom  operator- (const myPolynom& p) {$/;"	f
+operator -	mypoly.cpp	/^  myPolynom  operator- (const myPolynom& p, const myPolynom& q) {$/;"	f
+operator -	myqmatr.cpp	/^	myQMatr operator- (const myQMatr& A, const myQMatr& B) {$/;"	f
+operator -	myqvect.cpp	/^	myQVect operator- (const myQVect& v1, const myQVect& v2) {$/;"	f
+operator -	myvect.cpp	/^	myVector operator- (const myVector& v1, const myVector& v2) {$/;"	f
+operator -=	myqvect.cpp	/^	myQVect& myQVect::operator-= (const myQVect& v2) {$/;"	f	class:myQVect
+operator -=	myvect.cpp	/^	myVector& myVector::operator-= (const myVector& v2) {$/;"	f	class:myVector
+operator /	mypoly.cpp	/^myPolynom* operator\/ (const myPolynom& p, const myPolynom& q) {$/;"	f
+operator /	myqvect.cpp	/^myQVect operator\/ ( const myQVect& v, const myQScal a)  {$/;"	f
+operator /	myvect.cpp	/^myVector operator\/ ( const myVector& v, const myScalar a)  {$/;"	f
+operator <<	mymatr.cpp	/^	ostream& operator<< (ostream& out, myMatrix& v) {$/;"	f
+operator <<	mypermut.cpp	/^ostream& operator<< (ostream& out, myPermut& a) {$/;"	f
+operator <<	myqmatr.cpp	/^	ostream& operator<< (ostream& out, myQMatr& v) {$/;"	f
+operator <<	myqvect.cpp	/^	ostream& operator<< (ostream& out, myQVect& v) {$/;"	f
+operator <<	myvect.cpp	/^	ostream& operator<< (ostream& out, myVector& v) {$/;"	f
+operator >>	mymatr.cpp	/^	istream& operator>> (istream& in, myMatrix& v) {$/;"	f
+operator >>	mypermut.cpp	/^ostream& operator>> (istream& in, myPermut& a) {$/;"	f
+operator >>	myqmatr.cpp	/^	istream& operator>> (istream& in, myQMatr& v) {$/;"	f
+operator >>	myqvect.cpp	/^	istream& operator>> (istream& in, myQVect& v) {$/;"	f
+operator >>	myvect.cpp	/^	istream& operator>> (istream& in, myVector& v) {$/;"	f
+opts	ker_im_chk.pl.x.c	76;"	d	file:
+opts_z	ker_im_chk.pl.x.c	75;"	d	file:
+plane_eqn	prog/plan_eqn_gen.cpp	/^myVector plane_eqn (myVector a, myVector b, myVector A, string param="vvp"){$/;"	f
+plane_eqn	prog/plan_eqn_gen.cpp	/^myVector plane_eqn (myVector n, myVector A){$/;"	f
+prg_files	Makefile	/^prg_files = $(wildcard prog\/*.cpp)$/;"	m
+progs	Makefile	/^progs = $(patsubst %.cpp, %.run, $(prg_files))$/;"	m
+proiz	lagrange/Solution of logranch.cpp	/^long double proiz(long double x[],int n,long double koef,int h)$/;"	f
+proiz	lagrange/poly_lagr_sol.cpp	/^double proiz(double x[],int n,double koef,int h)$/;"	f
+proiz	lagrange/poly_lagr_sol_bad.cpp	/^long double proiz(long double x[],int n,long double koef,int h)$/;"	f
+pswd	ker_im_chk.pl.x.c	37;"	d	file:
+pswd_z	ker_im_chk.pl.x.c	36;"	d	file:
+pten	complex_alex/Checker2.cpp	/^int pten(int p){$/;"	f
+pten	prog/complex_roots_chk.cpp	/^int pten(int p){$/;"	f
+qrvs	myqmatr.cpp	/^myQMatr qrvs (myMatrix& a) {$/;"	f
+query_decode	china/func.pm	/^sub query_decode  {$/;"	s
+query_decode	func.pm	/^sub query_decode  {$/;"	s
+rand_t	myqvect.h	/^typedef int rand_t ;$/;"	t
+rand_t	myvect.h	/^typedef int rand_t ;$/;"	t
+rk	mymatr.cpp	/^size_t myMatrix::rk () {$/;"	f	class:myMatrix
+rlax	ker_im_chk.pl.x.c	69;"	d	file:
+rlax_z	ker_im_chk.pl.x.c	68;"	d	file:
+rmarg	ker_im_chk.pl.x.c	/^void rmarg(char ** argv, char * arg)$/;"	f
+rnd	myqvect.cpp	/^int myQVect::rnd = 0 ;$/;"	m	class:myQVect	file:
+rnd	myqvect.h	/^	static int rnd ;$/;"	m	class:myQVect
+rnd	myvect.cpp	/^int myVector::rnd = 0 ;$/;"	m	class:myVector	file:
+rnd	myvect.h	/^	static int rnd ;$/;"	m	class:myVector
+round	zn.c	3;"	d	file:
+rvs	mymatr.cpp	/^myMatrix myMatrix::rvs() {$/;"	f	class:myMatrix
+rvs	mypermut.cpp	/^	myPermut myPermut::rvs() {$/;"	f	class:myPermut
+sen	mypoly.h	/^  myScalar	sen() {return CUR[deg()];} ;$/;"	f	class:myPolynom
+shll	ker_im_chk.pl.x.c	29;"	d	file:
+shll_z	ker_im_chk.pl.x.c	28;"	d	file:
+socr	mymatr.h	/^	void socr() { for (size_t i=0; i<size(); i++) CUR[i].socr() ;} ;	$/;"	f	class:myMatrix
+socr	myvect.cpp	/^void myVector::socr () {$/;"	f	class:myVector
+solve	china/china_old_gen.cpp	/^ll solve(vector <ll> a, vector <ll> r){$/;"	f
+solve	china/china_theor_gen.cpp	/^ll solve(vector <ll> a, vector <ll> r){$/;"	f
+src_files	Makefile	/^src_files = $(lib_files) $(prg_files) $/;"	m
+str2pdl	china/func.pm	/^sub str2pdl {$/;"	s
+str2pdl	func.pm	/^sub str2pdl {$/;"	s
+str2pdl	kvd_frm_chk.pl	/^sub str2pdl {$/;"	s
+str2poly	china/func.pm	/^sub str2poly {$/;"	s
+str2poly	func.pm	/^sub str2poly {$/;"	s
+strip	china/func.pm	/^sub strip {$/;"	s
+strip	func.pm	/^sub strip {$/;"	s
+strip_all	china/func.pm	/^sub strip_all {$/;"	s
+strip_all	func.pm	/^sub strip_all {$/;"	s
+stte	ker_im_chk.pl.x.c	/^static unsigned char stte[256], indx, jndx, kndx;$/;"	v	file:
+stte_0	ker_im_chk.pl.x.c	/^void stte_0(void)$/;"	f
+subst_col	mymatr.cpp	/^int myMatrix::subst_col (myVector v, size_t pos) {$/;"	f	class:myMatrix
+sum_row	zn.pl	/^sub sum_row {$/;"	s
+tex_comb	mytex.cpp	/^void tex_comb(myPolynom Y, int mod, ostream& out, char var) {$/;"	f
+tex_equation	mytex.cpp	/^void tex_equation (myMatrix Y) {$/;"	f
+tex_equation_string	mytex.cpp	/^string tex_equation_string (myMatrix Y) {$/;"	f
+tex_kv_frm	mytex.cpp	/^void tex_kv_frm (const myMatrix& Q, ostream& out) {$/;"	f
+tex_line_eqn	prog/line_eqn1_gen.cpp	/^void tex_line_eqn (myVector line, ostream& out=cout) {$/;"	f
+tex_matrix	mytex.cpp	/^void tex_matrix(myMatrix& Y, ostream& out) {$/;"	f
+tex_matrix_string	mytex.cpp	/^string tex_matrix_string(myMatrix& Y) {$/;"	f
+tex_permut	mypermut.cpp	/^void tex_permut(myPermut& a, ostream& out) {$/;"	f
+tex_plane_eqn	mytex.cpp	/^void tex_plane_eqn (const myVector& line, ostream& out) {$/;"	f
+tex_polynom	mytex.cpp	/^void tex_polynom(myPolynom Y, int mod, ostream& out, char var) {$/;"	f
+tex_surf	mytex.cpp	/^void tex_surf (const myMatrix& Q, const myVector& b, const myScalar c, ostream& out ) {$/;"	f
+tex_vect	mytex.cpp	/^void tex_vect(const myVector& x, ostream& out) {$/;"	f
+text	ker_im_chk.pl.x.c	83;"	d	file:
+text_z	ker_im_chk.pl.x.c	82;"	d	file:
+transp	mymatr.cpp	/^myMatrix myMatrix::transp () {$/;"	f	class:myMatrix
+transp	mypermut.cpp	/^	void myPermut::transp(size_t i, size_t j){$/;"	f	class:myPermut
+transp	myqmatr.cpp	/^myQMatr myQMatr::transp () {$/;"	f	class:myQMatr
+true_input	china/func.pm	/^sub true_input {$/;"	s
+true_input	func.pm	/^sub true_input {$/;"	s
+tst1	ker_im_chk.pl.x.c	72;"	d	file:
+tst1_z	ker_im_chk.pl.x.c	71;"	d	file:
+tst2	ker_im_chk.pl.x.c	18;"	d	file:
+tst2_z	ker_im_chk.pl.x.c	17;"	d	file:
+ui	china/china_theor_gen.cpp	/^typedef unsigned int ui;$/;"	t	file:
+untraceable	ker_im_chk.pl.x.c	/^void untraceable(char * argv0)$/;"	f
+v_prod	prog/line_eqn1_gen.cpp	/^myVector v_prod (myVector v, myVector w) {$/;"	f
+v_prod	prog/plan_eqn_gen.cpp	/^myVector v_prod (myVector v, myVector w) {$/;"	f
+val	mypoly.cpp	/^myScalar myPolynom::val(myScalar a) {$/;"	f	class:myPolynom
+wrong_input	china/func.pm	/^sub wrong_input {$/;"	s
+wrong_input	func.pm	/^sub wrong_input {$/;"	s
+wt	myvect.cpp	/^size_t wt (size_t w, size_t len) {$/;"	f
+xecc	ker_im_chk.pl.x.c	33;"	d	file:
+xecc_z	ker_im_chk.pl.x.c	32;"	d	file:
+xsh	ker_im_chk.pl.x.c	/^char * xsh(int argc, char ** argv)$/;"	f
+zcut	mymatr.cpp	/^myMatrix zcut (const myMatrix& a, size_t istart, size_t jstart,$/;"	f
+zn	lagrange/Solution of logranch.cpp	/^long double zn(long double x[],int n,int i)$/;"	f
+zn	lagrange/poly_lagr_sol.cpp	/^double zn(double x[],int n,int i)$/;"	f
+zn	lagrange/poly_lagr_sol_bad.cpp	/^long double zn(long double x[],int n,int i)$/;"	f
+zrot	mymatr.cpp	/^myMatrix zrot (const myMatrix& a) {$/;"	f

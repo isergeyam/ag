@@ -19,6 +19,8 @@
 #ifndef MYMATR_H
 #define MYMATR_H
 #include "myvect.h"
+#include <sstream>
+#include <utility>
 //#include "mytempl.h"
 
 //template <class Scal, class Vect> class Matr ;
@@ -80,7 +82,8 @@ cnt_vect_t main_vect ;
 	size_t* gaus_step(size_t*) ;
 	size_t* gaus_step1(size_t*) ;
 	myVector gaus (const char* style="", size_t* ij=0) ;
-	cnt_vect_t gaus1 (const char* style="", size_t* ij=0) ;
+	//cnt_vect_t gaus1 (const char* style="", size_t* ij=0) ;
+	pair<cnt_vect_t,string> gaus1 (const char* style="", size_t* ij=0) ;
 	myScalar det () ;
 	myScalar det1 () ;
 	size_t rk () ;

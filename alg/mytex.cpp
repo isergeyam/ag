@@ -35,6 +35,25 @@ void tex_matrix(myMatrix& Y, ostream& out) {
 	out << "\\end {array}\n" ;
 	out << "\\right)\n" ;
 } ;
+string tex_matrix_string(myMatrix& Y) {
+	register size_t k=Y.size() ;
+	register size_t n=Y[0].size() ;
+  string out ;
+	string arr_param(n,'r')  ;
+	out+="\\left(\n" ;
+	out +="\\begin {array} {" +arr_param+"}\n" ;
+	for (size_t i=0; i<k; i++){
+		for (size_t j=0; j<n; j++){
+		  string delim = (j) ? " & " : "" ;
+			out+=delim ;
+			out+=Y[i][j].get_str() ;
+		}
+		out+= " \\\\\n" ;
+	}
+	out += "\\end {array}\n" ;
+	out += "\\right)\n" ;
+  return out ;
+}
 
 void comment_matrix (myMatrix& X, const char* name, ostream& out) {
 	out <<"\n\%" << name << "=" << endl;

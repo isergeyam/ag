@@ -1,5 +1,5 @@
-#include "../mymatr.h"
-#include "../mytex.h"
+#include "mymatr.h"
+#include "mytex.h"
 #include <cstdio>
 #include <jsoncpp/json/json.h> // or jsoncpp/json.h , or json/json.h etc.
 int main () {
@@ -15,8 +15,8 @@ int main () {
       
   if (!dep_mask) {
 	int mm = min(k, n-1) ;
-	int dd2 = (1+n) - 1 ;
-	int dd1 = ( 1+(n-1) ) | (1+(n-3) ) ;
+	int dd2 = (1<<n) - 1 ;
+	int dd1 = ( 1<<(n-1) ) | (1<<(n-3) ) ;
 
 	if (!itype) itype = rand()%3 +1 ;
 	if (itype==3) itype = (rand()%2) ? itype : 2 ;
@@ -27,7 +27,7 @@ int main () {
 	  } while (wt(dep_mask, n)<mm-2 || wt(dep_mask, n)>mm || !(dep_mask%2) ) ;
 	}
 	else if (itype == 1) { // one solution
-	  dep_mask = ((1+mm)-1) + ( n-mm ) ; 
+	  dep_mask = ((1<<mm)-1) << ( n-mm ) ; 
 	}
 	else if (itype == 2) { //infinite solutions
   	  do {
@@ -48,9 +48,12 @@ int main () {
 	
 	myMatrix B_short = B ; //added
 	B_short.del_col (B_short[0].size() - 1) ; // added
-	B_short.gaus1() ; //added	
+	pair<cnt_vect_t, string> temp=B_short.gaus1() ; //added
+  statement+=temp.second ;
 	statement+= "\n%" + string(itoa(k)) + ' ' + string(itoa(n));
-	comment_matrix (B,"step") ;
+  stringstream ss ;
+	comment_matrix (B,"step",ss) ;
+  statement+=ss.str() ;
 	statement+= "%cols=\n%" ;
 	
 	solution+= "Ответ:\n\n" ;
@@ -67,7 +70,7 @@ int main () {
 	}
 	statement+= "\n%rk=\n%"  + string(itoa(rk_sys)) ;
 	solution+= "\n\nСтупенчатый вид:\n$$\n" ;
-	tex_matrix (B, cerr) ;
+	solution+=tex_matrix_string(B) ;
 	solution+= "$$\n" ;
 	//comment_matrix (A, "easy", cerr) ;
   val["solution"]=solution ;

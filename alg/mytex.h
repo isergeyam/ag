@@ -24,6 +24,7 @@
 #include "mypoly.h"
 
 void tex_matrix(myMatrix&, ostream& out=cout) ;
+string tex_matrix_string(myMatrix&) ;
 void comment_matrix (myMatrix&, const char*, ostream& out=cout) ;
 void tex_equation (myMatrix) ;
 void tex_polynom(myPolynom Y, int mod=0, ostream& out=cout, char var='x') ;
