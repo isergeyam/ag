@@ -3,3 +3,5 @@ Desktop.ini
 .DS_Store
 src/
 !projects/*/src
+alg/tags
+*.swp
