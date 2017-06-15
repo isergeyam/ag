@@ -70,7 +70,7 @@ int main () {
   //hidb["type"]="reference" ;
   //hidb["data"][0]="solution" ;
   //hidb["data"][1]="B" ;
-  solb["type"]="vector" ;
+  solb["type"]="vector x index" ;
   solb["data"]=Json::Value(Json::arrayValue) ;	
 	for (int i=0; i<rk_sys; i++) {
 	  //if (i) cerr << ", " ;
@@ -83,7 +83,7 @@ int main () {
 	json_matrix (B, val["solution"]["C"]) ;
 	//cerr << "$$\n" ;
 	//comment_matrix (A, "easy", cerr) ;
-  json_matrix(A, val["hidden"]["A"]) ;
+  json_matrix(A, val["hidden"]["easy"]) ;
   cout << val ;
   return 0 ;
 }
