@@ -5,3 +5,4 @@ src/
 !projects/*/src
 alg/tags
 *.swp
+.clang_complete
